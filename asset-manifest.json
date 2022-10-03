@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/login-system-project/static/css/main.f2661eaa.css",
+    "main.js": "/login-system-project/static/js/main.88f52986.js",
+    "static/js/787.cda612ba.chunk.js": "/login-system-project/static/js/787.cda612ba.chunk.js",
+    "static/media/Montserrat-Light.ttf": "/login-system-project/static/media/Montserrat-Light.3960f7cc0c46fd5d742e.ttf",
+    "static/media/Montserrat-Regular.ttf": "/login-system-project/static/media/Montserrat-Regular.51f8426b4f4d7778a21d.ttf",
+    "static/media/Montserrat-Bold.ttf": "/login-system-project/static/media/Montserrat-Bold.b1483171b6765da5b1c1.ttf",
+    "static/media/ThirstyRoughRegular.otf": "/login-system-project/static/media/ThirstyRoughRegular.d377602151be78238137.otf",
+    "static/media/ThirstyRoughLight.otf": "/login-system-project/static/media/ThirstyRoughLight.816c28449a51fba6228c.otf",
+    "static/media/MilasianCircaMediumPERSONAL.ttf": "/login-system-project/static/media/MilasianCircaMediumPERSONAL.65309516bfbfe12d384b.ttf",
+    "static/media/libre-baskerville.bold.ttf": "/login-system-project/static/media/libre-baskerville.bold.a10dc2b2065a61117b00.ttf",
+    "static/media/ThirstyScriptExtraBold.otf": "/login-system-project/static/media/ThirstyScriptExtraBold.92a8790640cc99ac3d8d.otf",
+    "static/media/BebasNeue-Regular.ttf": "/login-system-project/static/media/BebasNeue-Regular.c501e16fa3f0781f9d73.ttf",
+    "static/media/CaviarDreams.ttf": "/login-system-project/static/media/CaviarDreams.174b0a13f7e49c169450.ttf",
+    "static/media/TrendSansOne.ttf": "/login-system-project/static/media/TrendSansOne.9bcb6bb0127099cace55.ttf",
+    "index.html": "/login-system-project/index.html",
+    "main.f2661eaa.css.map": "/login-system-project/static/css/main.f2661eaa.css.map",
+    "main.88f52986.js.map": "/login-system-project/static/js/main.88f52986.js.map",
+    "787.cda612ba.chunk.js.map": "/login-system-project/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2661eaa.css",
+    "static/js/main.88f52986.js"
+  ]
+}
