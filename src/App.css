@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face{
+	font-family: BebasNeue-Regular;
+	src: url(./Fonts/BebasNeue-Regular.ttf);
+	font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face{
+	font-family: Montserrat-Light;
+	src: url(./Fonts/Montserrat-Light.ttf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url(./Fonts/Montserrat-Regular.ttf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Montserrat-Bold;
+	src: url(./Fonts/Montserrat-Bold.ttf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: TrendSansOne;
+	src: url(./Fonts/TrendSansOne.ttf);
+	font-weight: bold;
+}
+@font-face {
+    font-family: ThirstyScript-ExtraBold;
+    src: url(./Fonts/ThirstyScriptExtraBold.otf);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@font-face {
+    font-family: ThirstyRoughLight;
+    src: url(./Fonts/ThirstyRoughLight.otf);
   }
-  to {
-    transform: rotate(360deg);
+@font-face {
+    font-family: ThirstyRoughRegular;
+    src: url(./Fonts/ThirstyRoughRegular.otf);
   }
+@font-face {
+    font-family: MilasianCircaMedium;
+    src: url(./Fonts//MilasianCircaMediumPERSONAL.ttf);
+  }
+@font-face {
+    font-family: libre-baskerville-bold;
+    src: url(./Fonts/libre-baskerville.bold.ttf);
+  }
+@font-face {
+    font-family: CaviarDreams;
+    src: url(./Fonts/CaviarDreams.ttf);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat-Regular;
 }
+.sw{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.ssw{
+    max-width: 1600px;
+}
+body{
+    color: #535353;
+    background-color: #dddddd;
+}
+.t-center{
+    text-align: center;
+}
+/* Helper */
+.link-style{
+    color:#0fc4e9;
+    text-decoration: none;
+}
+.link-style:hover{
+    color: #00d4ff;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+}
+.sp{
+    padding: 10px;
+}
+h2 {
+    font-size: 35px;
+}
+.form-wrapper-outer {
+    min-height: calc(100vh - 100px);
+    display: flex;
+}
+@media screen and (max-width: 992px) {
+    p, span, td{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+  }
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 600px) {
+    p, span, td{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4{
+        font-size: 13px;
+    }
+  }
