@@ -22,7 +22,7 @@ function Register() {
         }else if(validate(emailVal)===false){
             console.log("invalid email")
         }else{
-            Axios.get(`http://localhost:8000/users/check/${emailVal}`).then(async (response) => {
+            Axios.get(`https://login-system-user-management.herokuapp.com/users/check/${emailVal}`).then(async (response) => {
                 console.log(response.data.emailAvailable)
                 console.log("Email is not available")
                 if(response.data.emailAvailable){
